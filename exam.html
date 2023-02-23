@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <meta content "width=device-width, initial-scale=1, user-scalable=no">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<boby>
+
+    <form action="exam.php" method="POST">
+        <div class="c100">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+        </div>
+        <div class="c100">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom">
+        </div>
+        <div class="c100">
+            <label for="age">Age :</label>
+            <input type="number" id="age" name="age">
+        </div>
+        <div class="c100">
+            <label for="classe">Classe :</label>
+            <input type="classe" id="" name="classe">
+        </div>
+        <div class="c100">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="c100">
+            <label for="telephone">Téléphone :</label>
+            <input type="number" id="telephone" name="telephone">
+        </div>
+        <div class="c100">
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme">Femme</label>
+            <input type="radio" id="homme" name="sexe" value="homme">
+            <label for="homme">Homme</label>
+            <input type="radio" id="autre" name="sexe" value="autre">
+            <label for="autre">Autre</label>
+        </div>
+        <div class="c100">
+            <label for="pays">Pays de résidence :</label>
+            <select id="pays" name="pays">
+                <optgroup label="europe">
+                    <option value="allemagne">Allemagne</option>
+                    <option value="belgique">Belgique"</option>
+                    <option value="Russie">Russie</option>
+                </optgroup>
+                <optgroup label="afrique">
+                    <option value="mali">Mali</option>
+                    <option value="algerie">Algerie</option>
+                    <option value="tunisie">Tunisie</option>
+                    <option value="maroc">Maroc</option>
+                    <option value="madagascar">Madagascar</option>
+                    <option value="benin">Benin</option>
+                    <option value="togo">Togo</option>
+                </optgroup>
+                <optgroup label="asie">
+                    <option value="chine">Chine</option>
+                </optgroup>
+
+            </select>
+        </div>
+        <div class="c100" id="submit">
+            <input type="submit" id="autre" value="Envoyer">
+        </div>
+    </form>
+</boby>
+
+</html>
